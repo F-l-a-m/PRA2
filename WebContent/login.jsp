@@ -10,7 +10,7 @@
 <div id="center_container">
 <%@include file="header.html" %>
 <div id="login_form_container">
-<form action="index-auth.jsp" method="post">
+<form action="LoginServlet" method="post">
 	<input class="inputs" type="text" name="login" placeholder="login"/><br/>
 	<input class="inputs" type="password" name="password" placeholder="password"/>
 	<input class="button" type="submit" name="submit" value="LOGIN" style="margin-left:115px;"/><br/>

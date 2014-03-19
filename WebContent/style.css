@@ -42,10 +42,6 @@ table{
 	text-align:center;
 	text-decoration:none;
 	color:black;
-	/* Закруглённые края */
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
 }
 
 /*Header menu*/
@@ -61,10 +57,6 @@ table{
 	margin:15px;
 	border:solid 1px #FFD783;
 	padding:2px;
-	/* Закруглённые края */
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
 }
 #controls_container ul li a:link{
 	color:white;
@@ -87,10 +79,6 @@ table{
 	font-family: Georgia, serif;
 	background-color:#606060;
 	color:white;
-	/* Закруглённые края */
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
 }
 .button:hover{
 	color:#FFD783;
@@ -100,10 +88,6 @@ table{
 	font-family: Georgia, serif;
 	font-size:16px;
 	font-weight:bold;
-	/* Закруглённые края */
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
 }
 #table_container{
 	margin:0px;
@@ -125,10 +109,6 @@ table{
 	padding:15px;
 	background-color:#606060;
 	color:white;
-	/* Закруглённые края */
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
 }
 #login_form_container a:visited{
 	color:#FFD783;
@@ -140,10 +120,7 @@ table{
 	padding:4px 8px; 
 	border:1px solid black; 
 	color:#3F3F3F;
-	font-size:20px; 
-	-webkit-border-radius: 2px; 
-	-moz-border-radius: 2px; 
-	border-radius: 2px;
+	font-size:20px;
 	-webkit-transition: background 0.2s linear,
 	 box-shadow 0.6s linear;
 	-moz-transition: background 0.2s linear,

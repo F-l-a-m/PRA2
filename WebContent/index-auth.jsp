@@ -9,7 +9,7 @@
 <body>
 
 <div id="center_container">
-	<%@include file="header-auth.html" %>
+	<%@include file="header-auth.jsp" %>
 	<div id="btnNewQuestion">
 		<span style="color:#C0C0C0; border:solid 1px; padding:2px;">NEW QUESTION</span>
 	</div>

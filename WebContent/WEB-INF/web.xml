@@ -9,7 +9,6 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  
   <context-param>
     <param-name>dbURL</param-name>
     <param-value>jdbc:mysql://localhost/mysql_db</param-value>
@@ -22,5 +21,4 @@
     <param-name>dbUserPwd</param-name>
     <param-value>mysql_pwd</param-value>
   </context-param>
-  
 </web-app>

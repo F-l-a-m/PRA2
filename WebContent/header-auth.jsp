@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>PRA 2</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<%
+String userName = null;
+Cookie[] cookies = request.getCookies();
+if(cookies !=null){
+	for(Cookie cookie : cookies){
+	    if(cookie.getName().equals("user")) userName = cookie.getValue();
+	}
+}
+if(userName == null) response.sendRedirect("login.jsp");
+%>
+<div id="header_container">
+	<a id="logo" href="index-auth.jsp">
+		<span style="font-weight:bold;">Q&amp;A</span>
+		<br/>Questions and Answers
+	</a>
+	<div style="position:absolute; top:20px; left: 300px; color:white;">Hello, <%=userName %>!</div>
+	<div id="controls_container" style="top:-15px;">
+		<ul>
+			<li><a href="userlist-auth.jsp">USER LIST</a></li>
+			<li><a href="user-profile-auth.jsp">PROFILE</a></li>
+			<li style="border:none;"><form action="LogoutServlet" method="post" style="display:inline;">
+				<input type="submit" value="LOGOUT" class="button">
+			</form></li>
+		</ul>
+	</div>
+</div>
+
+</body>
+</html>

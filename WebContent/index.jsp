@@ -8,8 +8,8 @@
 </head>
 <body>
 
-<div id="center_container">
-	<%@include file="header.html" %>
+<%@include file="header.html" %>
+<div class="rounded" id="center_container">
 	<div id="btnNewQuestion">
 		<span style="color:#C0C0C0; border:solid 1px; padding:2px;">NEW QUESTION</span>
 	</div>
@@ -22,7 +22,7 @@
 			
 		</tr>
 		<%!
-		int n = 50; 
+		int n = 10; 
 		java.util.Date date = new java.util.Date();
 		%>
 		<%

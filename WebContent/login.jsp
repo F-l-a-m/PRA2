@@ -7,13 +7,14 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<div id="center_container">
+
 <%@include file="header.html" %>
-<div id="login_form_container">
+<div class="rounded" id="center_container" style="height:650px;">
+<div class="rounded" id="login_form_container">
 <form action="LoginServlet" method="post">
-	<input class="inputs" type="text" name="user" placeholder="login"/><br/>
-	<input class="inputs" type="password" name="pwd" placeholder="password"/>
-	<input class="button" type="submit" name="submit" value="LOGIN" style="margin-left:115px;"/><br/>
+	<input class="inputs rounded" type="text" name="user" placeholder="login"/><br/>
+	<input class="inputs rounded" type="password" name="pwd" placeholder="password"/>
+	<input class="button rounded" type="submit" name="submit" value="LOGIN" style="margin-left:115px;"/><br/>
 	<div style="text-align:center;">Don't have an account? <a href="register.jsp"><br/>Register here!</a></div>
 </form>
 </div>

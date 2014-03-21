@@ -8,10 +8,10 @@
 </head>
 <body>
 
-<div id="center_container">
-	<%@include file="header-auth.jsp" %>
+<%@include file="header-auth.jsp" %>
+<div class="rounded" id="center_container">
 	<div id="btnNewQuestion">
-		<span style="color:#C0C0C0; border:solid 1px; padding:2px;">NEW QUESTION</span>
+		<a href="new-question.jsp" class="button rounded">NEW QUESTION</a>
 	</div>
 	<div id="table_container">
 		<table>
@@ -22,7 +22,7 @@
 			
 		</tr>
 		<%!
-		int n = 50; 
+		int n = 5; 
 		java.util.Date date = new java.util.Date();
 		%>
 		<%

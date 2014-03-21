@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 public class LoginServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     private final String userID = "admin";
-    private final String password = "password";
+    private final String password = "admin";
  
     protected void doPost(HttpServletRequest request,
             HttpServletResponse response) throws ServletException, IOException {

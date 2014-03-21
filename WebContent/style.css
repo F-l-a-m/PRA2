@@ -3,8 +3,8 @@ body{
 	margin:0;
 	background-color:white;
 	font-family:Helvetica, Arial, Sans-Serif;
-	background-color:#FFDF9E;
-	background-image:url(img/bg-noisy.png);
+	background-color:white;
+	/*background-image:url(img/bg-noisy.png);*/
 	background-repeat:repeat;
 }
 table,th,td{
@@ -18,17 +18,23 @@ table{
 #center_container{
 	position:absolute;
     left:50%;
-    height:100%;
     width:800px;
     margin-left:-400px;
-	background-color:#FFE8BB;
+	background-color:#FEFCE0;
+	top:95px;
+	
 }
 
 /* Header */
 #header_container{
-	background-color:#606060;
+	position:absolute;
 	height:60px;
+	width:800px;
+	left:50%;
+	margin-left:-400px;
 	font-family: Georgia, serif;
+	top:15px;
+	background-color:#606060;
 }
 #logo{
 	display:block;
@@ -37,8 +43,7 @@ table{
 	left:10px;
 	height:40px;
 	width:200px;
-	background-color:#5AA635;
-	border:1px solid black;
+	background-color:#FFD783;
 	text-align:center;
 	text-decoration:none;
 	color:black;
@@ -53,20 +58,22 @@ table{
 }
 #controls_container ul li{
 	display:inline;
+}
+#controls_container ul li a{
 	font-size:16px;
 	margin:15px;
-	border:solid 1px #FFD783;
 	padding:2px;
+	background-color:white;
 }
 #controls_container ul li a:link{
-	color:white;
+	color:black;
 	text-decoration:none;
 }
 #controls_container ul li a:visited{
-	color:white;
+	color:black;
 }
 #controls_container ul li a:hover{
-	color:#FFD783;
+	background-color:#AEDD94;
 }
 
 
@@ -74,14 +81,21 @@ table{
 .button{
 	font-size:16px;
 	margin:15px;
-	border:solid 1px #FFD783;
 	padding:2px;
 	font-family: Georgia, serif;
-	background-color:#606060;
-	color:white;
+	background-color:white;
+	color:black;
+	text-decoration:none;
 }
 .button:hover{
-	color:#FFD783;
+	background-color:#AEDD94;
+}
+.rounded{
+	border:solid 2px black;
+	/* Закруглённые края */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 #btnNewQuestion{
 	margin:15px;
@@ -94,7 +108,7 @@ table{
 	padding-left:15px;
 	padding-right:15px;
 	padding-bottom:25px;
-	background-color:#FFE8BB;
+	background-color:#FEFCE0;;
 }
 
 
@@ -117,8 +131,7 @@ table{
 	outline:none;
 	display:block;
 	width:280px; 
-	padding:4px 8px; 
-	border:1px solid black; 
+	padding:4px 8px;
 	color:#3F3F3F;
 	font-size:20px;
 	-webkit-transition: background 0.2s linear,
@@ -131,8 +144,7 @@ table{
 	 box-shadow 0.6s linear;
 }
 .inputs:focus { 
-	background:#FFD783; 
-	border:solid 1px black; 
+	background:#AEDD94;
 	-webkit-box-shadow:2px 2px 7px #E8E8E8 inset; 
 	-moz-box-shadow:2px 2px 7px #E8E8E8 inset; 
 	box-shadow:2px 2px 7px #E8E8E8 inset; 

@@ -17,18 +17,18 @@ if(cookies !=null){
 }
 if(userName == null) response.sendRedirect("login.jsp");
 %>
-<div id="header_container">
-	<a id="logo" href="index-auth.jsp">
+<div class="rounded" id="header_container">
+	<a class="rounded" id="logo" href="index-auth.jsp">
 		<span style="font-weight:bold;">Q&amp;A</span>
 		<br/>Questions and Answers
 	</a>
 	<div style="position:absolute; top:20px; left: 300px; color:white;">Hello, <%=userName %>!</div>
 	<div id="controls_container" style="top:-15px;">
 		<ul>
-			<li><a href="userlist-auth.jsp">USER LIST</a></li>
-			<li><a href="user-profile-auth.jsp">PROFILE</a></li>
-			<li style="border:none;"><form action="LogoutServlet" method="post" style="display:inline;">
-				<input type="submit" value="LOGOUT" class="button">
+			<li><a class="rounded" href="userlist-auth.jsp">USER LIST</a></li>
+			<li><a class="rounded" href="user-profile-auth.jsp">PROFILE</a></li>
+			<li style="border:none; margin:0px;"><form action="LogoutServlet" method="post" style="display:inline;">
+				<input type="submit" value="LOGOUT" class="button rounded">
 			</form></li>
 		</ul>
 	</div>

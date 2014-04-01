@@ -10,7 +10,7 @@
 
 <%@include file="header-auth.jsp" %>
 <div class="rounded" id="center_container">
-	<div id="btnNewQuestion">
+	<div style="margin-left:15px; margin-top:15px;">
 		<a href="new-question.jsp" class="button rounded">NEW QUESTION</a>
 	</div>
 	<div id="table_container">
@@ -29,7 +29,7 @@
 		for(int i = 0; i < n; i++){ 
 		%>
 		<tr>
-			<td>question #<%=i+1 %></td>
+			<td><a href="selected-theme-auth.jsp">question #<%=i+1 %></a></td>
 			<td><%=date %></td>
 		</tr>
 		<%

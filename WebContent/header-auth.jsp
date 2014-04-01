@@ -23,7 +23,7 @@ if(userName == null) response.sendRedirect("login.jsp");
 		<br/>Questions and Answers
 	</a>
 	<div style="position:absolute; top:20px; left: 300px; color:white;">Hello, <%=userName %>!</div>
-	<div id="controls_container" style="top:-15px;">
+	<div id="controls_container" style="top:0px;">
 		<ul>
 			<li><a class="rounded" href="userlist-auth.jsp">USER LIST</a></li>
 			<li><a class="rounded" href="user-profile-auth.jsp">PROFILE</a></li>

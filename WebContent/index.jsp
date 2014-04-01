@@ -10,9 +10,6 @@
 
 <%@include file="header.html" %>
 <div class="rounded" id="center_container">
-	<div id="btnNewQuestion">
-		<span style="color:#C0C0C0; border:solid 1px; padding:2px;">NEW QUESTION</span>
-	</div>
 	<div id="table_container">
 		<table>
 		<tr>

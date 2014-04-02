@@ -10,8 +10,7 @@
 
 <%@include file="header.html" %>
 <div class="rounded" id="center_container" style="height:450px;">
-<p style="font-weight:bold; font-family:Helvetica, Arial, Sans-Serif; font-size:20px; margin:15px;">
-Please fill the registration form:</p>
+<h2>Please fill the registration form:</h2>
 <div class="rounded" id="register_form_container">
 <form action="login.jsp" method="post">
 	Choose username:

@@ -6,11 +6,11 @@
 <title>Login page</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
 
+<body>
 <%@include file="header.html" %>
 <div class="rounded" id="center_container" style="height:650px;">
-<p style="margin:15px;">For testing<br/>login: admin<br/>password: admin</p>
+<p>For testing<br/>login: admin<br/>password: admin</p>
 <div class="rounded" id="login_form_container">
 <form action="LoginServlet" method="post">
 	<input class="inputs rounded" type="text" name="user" placeholder="login"/><br/>
@@ -20,6 +20,6 @@
 </form>
 </div>
 </div>
-
 </body>
+
 </html>

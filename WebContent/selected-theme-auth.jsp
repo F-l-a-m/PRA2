@@ -10,7 +10,6 @@
 
 <%@include file="header-auth.jsp" %>
 <div class="rounded" id="center_container">
-	selected theme auth
 	<div class="output">
 		text   .........................................<br/>
 		................................................<br/>
@@ -29,8 +28,8 @@
 		text   .........................................<br/>
 		................................................<br/>
 	</div>
-	<div style="text-align:right; margin:15px;">
-		<a href="new-question.jsp" class="button rounded">NEW ANSWER</a>
+	<div style="text-align:right;">
+		<a href="new-answer.jsp" class="button rounded">NEW ANSWER</a>
 	</div>
 </div>
 

@@ -167,3 +167,8 @@ table{
 	background-color:white;
 	border:solid 2px black;
 }
+.input_textarea{
+	width:765px;
+	height:300px;
+	resize:none;
+}

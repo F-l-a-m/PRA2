@@ -7,24 +7,22 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
 <%@include file="header.html" %>
 <div class="rounded" id="center_container" style="height:450px;">
 <h2>Please fill the registration form:</h2>
 <div class="rounded" id="register_form_container">
-<form action="login.jsp" method="post">
+<form action="#" method="post">
 	Choose username:
-	<input class="inputs rounded" type="text" name="user" placeholder="login"/><br/>
+	<input name="username" class="inputs rounded" type="text"  placeholder="login"/><br/>
 	Your password:
-	<input class="inputs rounded" type="password" name="pwd" placeholder="password"/><br/>
+	<input name="pwd" class="inputs rounded" type="password"  placeholder="password"/><br/>
 	Your name:
-	<input class="inputs rounded" type="text" name="name" placeholder="name"/><br/>
+	<input name="name" class="inputs rounded" type="text"  placeholder="name"/><br/>
 	Your age:
-	<input class="inputs rounded" type="text" name="age" placeholder="age"/><br/>
-	<input class="button rounded" type="submit" name="register" value="REGISTER" style="margin-left:100px; margin-top:20px;"/><br/>
+	<input name="age" class="inputs rounded" type="text"  placeholder="age"/><br/>
+	<input name="register" type="button" onclick="form_submit()" value="REGISTER" class="button rounded" style="margin-left:100px; margin-top:20px;"/><br/>
 </form>
 </div>
 </div>
-
 </body>
 </html>

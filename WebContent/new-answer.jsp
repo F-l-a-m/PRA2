@@ -10,7 +10,13 @@
 
 <%@include file="header-auth.jsp" %>
 <div class="rounded" id="center_container">
-new answer page
+	<h2>Add new answer:</h2>
+	<textarea name="answer" class="input_textarea" placeholder="Type your answer here..."></textarea><br/><br/>
+	<form action="#" method="post">
+	<div style="text-align:right;">
+		<input class="button rounded" type="submit" name="answer" value="ADD ANSWER"/>
+	</div>
+	</form>
 </div>
 
 </body>

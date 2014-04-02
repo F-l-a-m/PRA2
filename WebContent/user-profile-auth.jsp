@@ -10,7 +10,15 @@
 
 <%@include file="header-auth.jsp" %>
 <div class="rounded" id="center_container">
-	user profile will be here
+	<h1>Username</h1>
+	<img src="no-avatar.jpg" width="200px"/>
+	<div id="profile_form">
+	<form action="#" method="get">
+		name:<br/><input type="text" name="name" placeholder="name"/><br/><br/>
+		age:<br/><input type="text" name="age" placeholder="age"/><br/><br/>
+		<input class="button rounded" type="submit" name="edit" value="EDIT"/>
+	</form>
+</div>
 </div>
 
 </body>

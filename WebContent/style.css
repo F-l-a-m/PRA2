@@ -18,11 +18,11 @@ table{
 #center_container{
 	position:absolute;
     left:50%;
-    width:800px;
+    width:770px;
     margin-left:-400px;
 	background-color:#FEFCE0;
 	top:95px;
-	
+	padding:15px;
 }
 
 /* Header */
@@ -126,6 +126,26 @@ table{
 }
 #login_form_container a:visited{
 	color:#FFD783;
+}
+/* Register page */
+#register_form_container{
+	width:300px;
+	height:350px;
+	position:absolute;
+	left:50%;
+	margin-left:-150px;
+	top:70px;
+	padding:15px;
+	background-color:#606060;
+	color:white;
+}
+#register_form_container a:visited{
+	color:#FFD783;
+}
+#profile_form{
+	position:absolute;
+	top:90px;
+	left:250px;
 }
 .inputs{
 	outline:none;

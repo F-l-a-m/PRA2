@@ -1,12 +1,31 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<meta charset="utf-8">
+<title>Login page</title>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+
+<%@include file="header.html" %>
+<div class="rounded" id="center_container" style="height:450px;">
+<p style="font-weight:bold; font-family:Helvetica, Arial, Sans-Serif; font-size:20px; margin:15px;">
+Please fill the registration form:</p>
+<div class="rounded" id="register_form_container">
+<form action="login.jsp" method="post">
+	Choose username:
+	<input class="inputs rounded" type="text" name="user" placeholder="login"/><br/>
+	Your password:
+	<input class="inputs rounded" type="password" name="pwd" placeholder="password"/><br/>
+	Your name:
+	<input class="inputs rounded" type="text" name="name" placeholder="name"/><br/>
+	Your age:
+	<input class="inputs rounded" type="text" name="age" placeholder="age"/><br/>
+	<input class="button rounded" type="submit" name="register" value="REGISTER" style="margin-left:100px; margin-top:20px;"/><br/>
+</form>
+</div>
+</div>
 
 </body>
 </html>
